@@ -324,6 +324,7 @@ def do_all_for_nick(wishes_all, nick='drnbw'):
 
 nick = 'drnbw'
 nick = 'samael'
+nick = 'sophie'
 wishes_all, wishes_dict = concat_all_wishes(nick=nick)
 do_all_for_nick(wishes_all, nick=nick)
 # plot_wishes_in_time(wishes_all, nick=nick, banner='char')
