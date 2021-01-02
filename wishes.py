@@ -2,6 +2,7 @@ from matplotlib.pyplot import bar, xlabel, ylabel
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy.core.numeric import isfortran
+from numpy.lib.type_check import isreal
 import pandas as pd
 from pandas.core.reshape.concat import concat
 
@@ -22,10 +23,11 @@ header_colour = (0.2, 0.2, 0.2)
 banner_info = {
     'Venti':  (('2020-09-28', '2020-10-18'), 'green'),
     'Klee':   (('2020-10-20', '2020-11-09'), 'red'),
-    'Childe': (('2020-11-11', '2020-11-30'), 'blue'),
-    'Zhongli': (('2020-12-01', '2021-01-30'), 'brown'),
+    'Childe': (('2020-11-11', '2020-11-30'), 'turquoise'),
+    'Zhongli': (('2020-12-01', '2020-12-22'), 'peru'),
+    'Albedo': (('2020-12-23', '2021-01-30'), 'peru'),
 }
-
+space_between_banners = .9
 
 def convert_raw_to_table(bar_label, nick='drnbw'):
     wishes = []
@@ -201,6 +203,7 @@ def plot_wishes_in_time(wishes_all, nick='drnbw', banner='char'):
 
     plt.figure(figsize=(8, 6))
 
+    left_slant = True
     for banner_char in banner_info:
         banner_startend, color = banner_info[banner_char]
         start, end = np.array(banner_startend, dtype='datetime64')
@@ -221,9 +224,17 @@ def plot_wishes_in_time(wishes_all, nick='drnbw', banner='char'):
         else:
             end_ind = np.argmin(before_end) - 1
 
-        plt.axvspan(start_ind, end_ind, color=color, alpha=0.2, hatch='/')
-        plt.text((start_ind + end_ind)/2, 4.5, f'{banner_char} banner',
+        if end_ind < start_ind:
+            continue
+
+        spacing = (1. - space_between_banners) * 0.5
+        plt.axvspan(start_ind - spacing, end_ind + spacing,
+                    color=color, alpha=0.2,
+                    hatch='\\' if left_slant else '/')
+        plt.text((start_ind + end_ind)/2, 4.5, f'{banner_char}\nbanner',
                  va='center', ha='center')
+
+        left_slant = not left_slant
 
     plt.axvline(0, ls=':', color=(.7, .7, .7, .7))
     plt.axvline(last_wish, ls=':', color=(.7, .7, .7, .7))
@@ -242,10 +253,10 @@ def plot_wishes_in_time(wishes_all, nick='drnbw', banner='char'):
         inds_char = wishes_banner[is_of_rarity & ~is_weapon].index
         inds = wishes_banner[is_of_rarity].index
 
-        plt.plot(inds_weapon, rarities[inds_weapon], 'o',
+        plt.plot(inds_weapon, rarities[inds_weapon], 's',
                  color=color, ms=rarity)
-        plt.plot(inds_char, rarities[inds_char], 'd',
-                 color=color, ms=5)
+        plt.plot(inds_char, rarities[inds_char], '*',
+                 color=color, ms=7)
 
         if rarity != 3:
             since_star = last_wish - inds.max()
@@ -256,7 +267,7 @@ def plot_wishes_in_time(wishes_all, nick='drnbw', banner='char'):
                 x1 = inds_complete[n+1]
                 dx = x1 - x0
                 xm = x0 + dx/2
-                spacing = 0
+                spacing = 0.1
 
                 plt.text(xm, rarity + (n%2 -.5) * 0.15,
                          f'{dx}',
@@ -270,8 +281,8 @@ def plot_wishes_in_time(wishes_all, nick='drnbw', banner='char'):
                         arrowprops=dict(arrowstyle='<->', color=color)
                     )
 
-    plt.plot(np.nan, 'ow', label='Weapon')
-    plt.plot(np.nan, 'dw', label='Character')
+    plt.plot(np.nan, 'sw', label='Weapon')
+    plt.plot(np.nan, '*w', label='Character')
     plt.legend(ncol=2, loc='lower center')
 
     plt.xlim(min_ind, max_ind)
@@ -292,13 +303,47 @@ def plot_wishes_in_time(wishes_all, nick='drnbw', banner='char'):
 
 
 def plot_pull_chance_histogram(wishes_all, nick='drnbw'):
-    star_4_inds = wishes_all[wishes_all['rarity'] == '4-Star'].index
-    space_4_star = np.diff(star_4_inds)
+    plt.figure(figsize=(14,6))
 
-    plt.figure()
+    for rarity in [4, 5]:
+        spaces = []
+        for banner in banner_types:
+            wishes_banner = wishes_all[wishes_all['banner'] == banner]
+            is_rarity = wishes_banner['rarity'] == f'{rarity}-Star'
+            if rarity == 4:
+                is_rarity |= wishes_banner['rarity'] == f'{rarity+1}-Star'
 
-    x, y, _ = plt.hist(space_4_star, bins=np.arange(0.5, 11.5, 1),
-                       rwidth=0.5, align='mid')
+            star_inds = wishes_banner[is_rarity].index
+            star_inds = np.hstack((0, star_inds))
+            space_star = list(np.diff(star_inds))
+            spaces += space_star
+
+        mean = np.mean(spaces)
+        std = np.std(spaces)
+
+        plt.subplot(1, 2, rarity-3)
+
+        bins = np.arange(0.5, np.max(spaces)+1.5, 1)
+        # print(bins)
+        x, y, _ = plt.hist(spaces, bins=bins,
+                           rwidth=0.5, align='mid', normed=True)
+
+        plt.axvline(mean, color='r', ls='--')
+
+        plt.title(
+            f'{rarity}-Star'
+            f' ({mean:.1f} $\pm$ {std:.1f})'
+        )
+
+    # plt.tight_layout()
+
+    plt.suptitle(f'How many wishes between rarities for {nick}')
+
+    plt.savefig(
+        graphs_folder +
+        f'{nick}_wish_histogram',
+        dpi=100
+    )
 
     plt.show()
 
@@ -323,8 +368,11 @@ def do_all_for_nick(wishes_all, nick='drnbw'):
 
 
 nick = 'drnbw'
-nick = 'samael'
-nick = 'sophie'
+# nick = 'samael'
+# nick = 'sophie'
+# nick = 'omar'
 wishes_all, wishes_dict = concat_all_wishes(nick=nick)
-do_all_for_nick(wishes_all, nick=nick)
+# do_all_for_nick(wishes_all, nick=nick)
+plot_pull_chance_histogram(wishes_all, nick=nick)
+# plot_wishes_in_time(wishes_all, nick=nick, banner='weapon')
 # plot_wishes_in_time(wishes_all, nick=nick, banner='char')

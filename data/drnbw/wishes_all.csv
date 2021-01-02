@@ -1,17 +1,16 @@
 type,name,rarity,date,banner
-Weapon,Raven Bow,3-Star,2020-10-26 17:30:21,novice
-Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-10-26 17:30:21,novice
-Weapon,Raven Bow,3-Star,2020-10-26 17:30:21,novice
 Character,Sucrose,4-Star,2020-10-26 17:30:21,novice
-Weapon,Ferrous Shadow,3-Star,2020-10-26 17:30:21,novice
-Weapon,Sharpshooter's Oath,3-Star,2020-10-26 17:30:21,novice
+Weapon,Raven Bow,3-Star,2020-10-26 17:30:21,novice
 Weapon,Sharpshooter's Oath,3-Star,2020-10-26 17:30:21,novice
 Character,Noelle,4-Star,2020-10-26 17:30:21,novice
 Weapon,Sharpshooter's Oath,3-Star,2020-10-26 17:30:21,novice
+Weapon,Sharpshooter's Oath,3-Star,2020-10-26 17:30:21,novice
 Weapon,Ferrous Shadow,3-Star,2020-10-26 17:30:21,novice
-Weapon,Skyrider Sword,3-Star,2020-10-26 19:52:24,weapon
+Weapon,Raven Bow,3-Star,2020-10-26 17:30:21,novice
+Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-10-26 17:30:21,novice
+Weapon,Ferrous Shadow,3-Star,2020-10-26 17:30:21,novice
 Weapon,Harbinger of Dawn,3-Star,2020-10-26 19:52:24,weapon
-Weapon,Bloodtainted Greatsword,3-Star,2020-10-26 19:52:24,weapon
+Weapon,Skyrider Sword,3-Star,2020-10-26 19:52:24,weapon
 Weapon,Emerald Orb,3-Star,2020-10-26 19:52:24,weapon
 Weapon,Slingshot,3-Star,2020-10-26 19:52:24,weapon
 Weapon,Debate Club,3-Star,2020-10-26 19:52:24,weapon
@@ -19,59 +18,60 @@ Weapon,Slingshot,3-Star,2020-10-26 19:52:24,weapon
 Weapon,Dragon's Bane,4-Star,2020-10-26 19:52:24,weapon
 Weapon,Bloodtainted Greatsword,3-Star,2020-10-26 19:52:24,weapon
 Weapon,Harbinger of Dawn,3-Star,2020-10-26 19:52:24,weapon
-Weapon,Sharpshooter's Oath,3-Star,2020-10-27 00:24:47,novice
-Weapon,Black Tassel,3-Star,2020-10-27 00:24:47,novice
-Weapon,Emerald Orb,3-Star,2020-10-27 00:24:47,novice
-Weapon,Black Tassel,3-Star,2020-10-27 00:24:47,novice
-Weapon,Raven Bow,3-Star,2020-10-27 00:24:47,novice
-Weapon,Debate Club,3-Star,2020-10-27 00:24:47,novice
+Weapon,Bloodtainted Greatsword,3-Star,2020-10-26 19:52:24,weapon
 Weapon,Skyrider Sword,3-Star,2020-10-27 00:24:47,novice
+Weapon,Ferrous Shadow,3-Star,2020-10-27 00:24:47,novice
+Weapon,Sharpshooter's Oath,3-Star,2020-10-27 00:24:47,novice
+Weapon,Debate Club,3-Star,2020-10-27 00:24:47,novice
+Weapon,Black Tassel,3-Star,2020-10-27 00:24:47,novice
+Weapon,Black Tassel,3-Star,2020-10-27 00:24:47,novice
 Weapon,Emerald Orb,3-Star,2020-10-27 00:24:47,novice
 Character,Fischl,4-Star,2020-10-27 00:24:47,novice
-Weapon,Ferrous Shadow,3-Star,2020-10-27 00:24:47,novice
+Weapon,Raven Bow,3-Star,2020-10-27 00:24:47,novice
+Weapon,Emerald Orb,3-Star,2020-10-27 00:24:47,novice
 Weapon,Sharpshooter's Oath,3-Star,2020-10-27 00:27:40,char
 Weapon,Bloodtainted Greatsword,3-Star,2020-10-27 00:27:52,char
 Weapon,Ferrous Shadow,3-Star,2020-10-27 00:45:40,permanent
+Weapon,Cool Steel,3-Star,2020-10-27 18:48:05,permanent
+Weapon,Debate Club,3-Star,2020-10-27 18:48:05,permanent
+Weapon,Sharpshooter's Oath,3-Star,2020-10-27 18:48:05,permanent
+Weapon,Magic Guide,3-Star,2020-10-27 18:48:05,permanent
+Weapon,Skyrider Sword,3-Star,2020-10-27 18:48:05,permanent
+Weapon,Harbinger of Dawn,3-Star,2020-10-27 18:48:05,permanent
 Weapon,Skyrider Sword,3-Star,2020-10-27 18:48:05,permanent
 Weapon,Black Tassel,3-Star,2020-10-27 18:48:05,permanent
-Weapon,Skyrider Sword,3-Star,2020-10-27 18:48:05,permanent
-Weapon,Cool Steel,3-Star,2020-10-27 18:48:05,permanent
 Weapon,Bloodtainted Greatsword,3-Star,2020-10-27 18:48:05,permanent
-Weapon,Magic Guide,3-Star,2020-10-27 18:48:05,permanent
-Weapon,Sharpshooter's Oath,3-Star,2020-10-27 18:48:05,permanent
 Weapon,Sacrificial Sword,4-Star,2020-10-27 18:48:05,permanent
-Weapon,Debate Club,3-Star,2020-10-27 18:48:05,permanent
-Weapon,Harbinger of Dawn,3-Star,2020-10-27 18:48:05,permanent
+Weapon,Ferrous Shadow,3-Star,2020-10-27 18:49:58,permanent
 Weapon,Sharpshooter's Oath,3-Star,2020-10-27 18:49:58,permanent
 Weapon,Magic Guide,3-Star,2020-10-27 18:49:58,permanent
-Weapon,Harbinger of Dawn,3-Star,2020-10-27 18:49:58,permanent
-Weapon,Ferrous Shadow,3-Star,2020-10-27 18:49:58,permanent
 Character,Lisa,4-Star,2020-10-27 18:49:58,permanent
+Weapon,Harbinger of Dawn,3-Star,2020-10-27 18:49:58,permanent
+Weapon,Bloodtainted Greatsword,3-Star,2020-10-27 18:49:58,permanent
 Weapon,Sharpshooter's Oath,3-Star,2020-10-27 18:49:58,permanent
 Weapon,Black Tassel,3-Star,2020-10-27 18:49:58,permanent
 Weapon,Raven Bow,3-Star,2020-10-27 18:49:58,permanent
 Weapon,Ferrous Shadow,3-Star,2020-10-27 18:49:58,permanent
-Weapon,Bloodtainted Greatsword,3-Star,2020-10-27 18:49:58,permanent
+Weapon,Bloodtainted Greatsword,3-Star,2020-10-28 19:03:23,weapon
+Weapon,Sacrificial Bow,4-Star,2020-10-28 19:03:23,weapon
+Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-10-28 19:03:23,weapon
+Weapon,Black Tassel,3-Star,2020-10-28 19:03:23,weapon
+Weapon,Slingshot,3-Star,2020-10-28 19:03:23,weapon
+Weapon,Cool Steel,3-Star,2020-10-28 19:03:23,weapon
+Weapon,Magic Guide,3-Star,2020-10-28 19:03:23,weapon
+Weapon,Lost Prayer to the Sacred Winds,5-Star,2020-10-28 19:03:23,weapon
 Weapon,Sharpshooter's Oath,3-Star,2020-10-28 19:03:23,weapon
 Weapon,Emerald Orb,3-Star,2020-10-28 19:03:23,weapon
-Weapon,Magic Guide,3-Star,2020-10-28 19:03:23,weapon
-Weapon,Cool Steel,3-Star,2020-10-28 19:03:23,weapon
-Weapon,Slingshot,3-Star,2020-10-28 19:03:23,weapon
-Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-10-28 19:03:23,weapon
-Weapon,Sacrificial Bow,4-Star,2020-10-28 19:03:23,weapon
-Weapon,Bloodtainted Greatsword,3-Star,2020-10-28 19:03:23,weapon
-Weapon,Lost Prayer to the Sacred Winds,5-Star,2020-10-28 19:03:23,weapon
-Weapon,Black Tassel,3-Star,2020-10-28 19:03:23,weapon
+Weapon,Harbinger of Dawn,3-Star,2020-10-28 19:04:44,permanent
+Weapon,Ferrous Shadow,3-Star,2020-10-28 19:04:44,permanent
+Weapon,Bloodtainted Greatsword,3-Star,2020-10-28 19:04:44,permanent
 Weapon,Skyrider Sword,3-Star,2020-10-28 19:04:44,permanent
-Weapon,Magic Guide,3-Star,2020-10-28 19:04:44,permanent
-Character,Sucrose,4-Star,2020-10-28 19:04:44,permanent
 Weapon,Slingshot,3-Star,2020-10-28 19:04:44,permanent
 Weapon,Skyward Spine,5-Star,2020-10-28 19:04:44,permanent
 Weapon,Ferrous Shadow,3-Star,2020-10-28 19:04:44,permanent
-Weapon,Harbinger of Dawn,3-Star,2020-10-28 19:04:44,permanent
 Weapon,Ferrous Shadow,3-Star,2020-10-28 19:04:44,permanent
-Weapon,Ferrous Shadow,3-Star,2020-10-28 19:04:44,permanent
-Weapon,Bloodtainted Greatsword,3-Star,2020-10-28 19:04:44,permanent
+Weapon,Magic Guide,3-Star,2020-10-28 19:04:44,permanent
+Character,Sucrose,4-Star,2020-10-28 19:04:44,permanent
 Weapon,Bloodtainted Greatsword,3-Star,2020-10-30 13:27:02,char
 Weapon,Harbinger of Dawn,3-Star,2020-10-30 13:27:11,char
 Weapon,Raven Bow,3-Star,2020-10-30 13:27:16,char
@@ -197,25 +197,25 @@ Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-11-27 15:06:39,char
 Weapon,The Stringless,4-Star,2020-11-27 15:14:58,char
 Weapon,Emerald Orb,3-Star,2020-11-27 17:23:22,char
 Character,Beidou,4-Star,2020-11-27 17:23:31,char
+Weapon,Ferrous Shadow,3-Star,2020-11-27 21:06:38,char
+Weapon,Slingshot,3-Star,2020-11-27 21:06:38,char
+Weapon,Ferrous Shadow,3-Star,2020-11-27 21:06:38,char
+Weapon,Black Tassel,3-Star,2020-11-27 21:06:38,char
+Weapon,Bloodtainted Greatsword,3-Star,2020-11-27 21:06:38,char
+Character,Sucrose,4-Star,2020-11-27 21:06:38,char
+Weapon,Cool Steel,3-Star,2020-11-27 21:06:38,char
 Weapon,Magic Guide,3-Star,2020-11-27 21:06:38,char
 Weapon,Ferrous Shadow,3-Star,2020-11-27 21:06:38,char
 Weapon,Debate Club,3-Star,2020-11-27 21:06:38,char
-Weapon,Bloodtainted Greatsword,3-Star,2020-11-27 21:06:38,char
-Weapon,Black Tassel,3-Star,2020-11-27 21:06:38,char
-Weapon,Ferrous Shadow,3-Star,2020-11-27 21:06:38,char
-Weapon,Cool Steel,3-Star,2020-11-27 21:06:38,char
-Weapon,Ferrous Shadow,3-Star,2020-11-27 21:06:38,char
-Weapon,Slingshot,3-Star,2020-11-27 21:06:38,char
-Character,Sucrose,4-Star,2020-11-27 21:06:38,char
-Character,Ningguang,4-Star,2020-11-27 21:07:06,char
-Weapon,Emerald Orb,3-Star,2020-11-27 21:07:06,char
-Weapon,Cool Steel,3-Star,2020-11-27 21:07:06,char
 Weapon,Skyrider Sword,3-Star,2020-11-27 21:07:06,char
 Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-11-27 21:07:06,char
 Weapon,Bloodtainted Greatsword,3-Star,2020-11-27 21:07:06,char
 Weapon,Magic Guide,3-Star,2020-11-27 21:07:06,char
 Weapon,Sharpshooter's Oath,3-Star,2020-11-27 21:07:06,char
 Weapon,Bloodtainted Greatsword,3-Star,2020-11-27 21:07:06,char
+Weapon,Emerald Orb,3-Star,2020-11-27 21:07:06,char
+Character,Ningguang,4-Star,2020-11-27 21:07:06,char
+Weapon,Cool Steel,3-Star,2020-11-27 21:07:06,char
 Weapon,Harbinger of Dawn,3-Star,2020-11-27 21:07:06,char
 Weapon,Debate Club,3-Star,2020-11-29 00:56:56,permanent
 Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-11-29 00:57:04,permanent
@@ -261,3 +261,101 @@ Weapon,Bloodtainted Greatsword,3-Star,2020-12-17 18:39:51,char
 Weapon,Ferrous Shadow,3-Star,2020-12-17 18:39:58,char
 Weapon,Slingshot,3-Star,2020-12-18 14:53:08,permanent
 Weapon,Harbinger of Dawn,3-Star,2020-12-18 14:53:16,permanent
+Weapon,Raven Bow,3-Star,2020-12-21 20:35:22,char
+Weapon,Ferrous Shadow,3-Star,2020-12-21 20:35:31,weapon
+Weapon,Ferrous Shadow,3-Star,2020-12-21 20:35:44,permanent
+Character,Xinyan,4-Star,2020-12-23 14:11:57,permanent
+Weapon,Debate Club,3-Star,2020-12-23 14:12:17,permanent
+Weapon,Debate Club,3-Star,2020-12-23 14:12:24,permanent
+Weapon,Emerald Orb,3-Star,2020-12-23 14:12:28,permanent
+Weapon,Harbinger of Dawn,3-Star,2020-12-23 14:12:35,permanent
+Weapon,Black Tassel,3-Star,2020-12-23 14:12:41,permanent
+Weapon,Emerald Orb,3-Star,2020-12-23 14:12:47,permanent
+Character,Fischl,4-Star,2020-12-23 14:12:55,permanent
+Weapon,Raven Bow,3-Star,2020-12-23 14:13:21,permanent
+Weapon,Slingshot,3-Star,2020-12-23 14:13:28,permanent
+Weapon,Magic Guide,3-Star,2020-12-23 14:13:34,permanent
+Weapon,Magic Guide,3-Star,2020-12-23 14:13:41,permanent
+Weapon,Bloodtainted Greatsword,3-Star,2020-12-23 14:13:51,permanent
+Weapon,Black Tassel,3-Star,2020-12-23 14:13:57,permanent
+Weapon,Debate Club,3-Star,2020-12-23 14:14:03,permanent
+Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-12-23 14:14:09,permanent
+Weapon,Favonius Sword,4-Star,2020-12-23 14:14:15,permanent
+Weapon,Emerald Orb,3-Star,2020-12-23 14:14:34,permanent
+Weapon,Cool Steel,3-Star,2020-12-23 14:14:42,permanent
+Weapon,Emerald Orb,3-Star,2020-12-23 14:14:49,permanent
+Weapon,Black Tassel,3-Star,2020-12-23 14:14:56,permanent
+Weapon,Magic Guide,3-Star,2020-12-23 14:15:02,permanent
+Weapon,Sharpshooter's Oath,3-Star,2020-12-23 14:15:09,permanent
+Weapon,Debate Club,3-Star,2020-12-23 14:15:16,permanent
+Weapon,Sharpshooter's Oath,3-Star,2020-12-23 14:15:50,char
+Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-12-23 14:16:07,char
+Weapon,Raven Bow,3-Star,2020-12-23 14:16:14,char
+Weapon,Bloodtainted Greatsword,3-Star,2020-12-23 14:16:19,char
+Weapon,Ferrous Shadow,3-Star,2020-12-23 14:16:26,char
+Weapon,Sacrificial Sword,4-Star,2020-12-23 14:16:32,char
+Weapon,Black Tassel,3-Star,2020-12-23 14:16:49,char
+Weapon,Ferrous Shadow,3-Star,2020-12-23 14:16:58,char
+Weapon,Bloodtainted Greatsword,3-Star,2020-12-23 14:17:04,char
+Weapon,Skyrider Sword,3-Star,2020-12-23 14:17:11,char
+Weapon,Skyrider Sword,3-Star,2020-12-23 14:17:18,char
+Weapon,Debate Club,3-Star,2020-12-23 14:17:24,char
+Weapon,Magic Guide,3-Star,2020-12-23 14:17:30,char
+Character,Sucrose,4-Star,2020-12-23 14:17:36,char
+Weapon,Bloodtainted Greatsword,3-Star,2020-12-23 14:17:49,char
+Weapon,Emerald Orb,3-Star,2020-12-23 14:17:56,char
+Weapon,Debate Club,3-Star,2020-12-23 14:18:03,char
+Weapon,Black Tassel,3-Star,2020-12-23 14:18:10,char
+Weapon,Skyrider Sword,3-Star,2020-12-23 14:18:16,char
+Weapon,Skyrider Sword,3-Star,2020-12-23 14:18:22,char
+Weapon,Debate Club,3-Star,2020-12-23 14:18:28,char
+Weapon,Magic Guide,3-Star,2020-12-23 14:18:47,char
+Character,Bennett,4-Star,2020-12-23 14:18:53,char
+Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-12-23 15:10:00,permanent
+Character,Xingqiu,4-Star,2020-12-23 18:54:50,permanent
+Weapon,Sharpshooter's Oath,3-Star,2020-12-23 19:24:07,permanent
+Weapon,Bloodtainted Greatsword,3-Star,2020-12-24 01:10:04,char
+Weapon,Harbinger of Dawn,3-Star,2020-12-24 01:10:12,char
+Weapon,Bloodtainted Greatsword,3-Star,2020-12-24 01:10:18,char
+Character,Noelle,4-Star,2020-12-26 17:02:39,permanent
+Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-12-26 19:55:57,char
+Weapon,Sharpshooter's Oath,3-Star,2020-12-26 19:56:07,char
+Character,Sucrose,4-Star,2020-12-26 19:56:14,char
+Weapon,Sharpshooter's Oath,3-Star,2020-12-26 19:56:28,char
+Weapon,Black Tassel,3-Star,2020-12-26 19:56:36,char
+Weapon,Emerald Orb,3-Star,2020-12-26 19:56:44,char
+Weapon,Raven Bow,3-Star,2020-12-26 19:56:52,char
+Weapon,Ferrous Shadow,3-Star,2020-12-26 19:56:59,char
+Weapon,Cool Steel,3-Star,2020-12-26 19:57:07,char
+Weapon,Slingshot,3-Star,2020-12-26 19:57:13,char
+Weapon,Sharpshooter's Oath,3-Star,2020-12-26 19:57:20,char
+Weapon,Rainslasher,4-Star,2020-12-26 19:57:28,char
+Weapon,Ferrous Shadow,3-Star,2020-12-27 00:44:58,permanent
+Weapon,Sharpshooter's Oath,3-Star,2020-12-27 20:26:37,char
+Weapon,Bloodtainted Greatsword,3-Star,2020-12-27 20:26:45,char
+Weapon,Skyrider Sword,3-Star,2020-12-27 20:26:51,char
+Weapon,Raven Bow,3-Star,2020-12-27 20:26:58,char
+Weapon,Black Tassel,3-Star,2020-12-27 20:27:04,char
+Weapon,Raven Bow,3-Star,2020-12-27 20:27:11,char
+Weapon,Skyrider Sword,3-Star,2020-12-27 20:27:17,char
+Weapon,Debate Club,3-Star,2020-12-27 20:27:23,char
+Weapon,Black Tassel,3-Star,2020-12-27 20:27:30,char
+Character,Bennett,4-Star,2020-12-27 20:27:37,char
+Weapon,Emerald Orb,3-Star,2020-12-29 01:27:58,permanent
+Weapon,Harbinger of Dawn,3-Star,2020-12-29 02:40:11,permanent
+Weapon,Cool Steel,3-Star,2020-12-29 02:40:19,permanent
+Weapon,Emerald Orb,3-Star,2020-12-29 17:23:16,char
+Weapon,Raven Bow,3-Star,2020-12-29 17:23:25,char
+Weapon,Raven Bow,3-Star,2020-12-29 18:30:59,char
+Weapon,Cool Steel,3-Star,2020-12-29 18:31:07,char
+Weapon,Emerald Orb,3-Star,2020-12-29 18:31:14,char
+Character,Albedo,5-Star,2020-12-29 18:31:21,char
+Weapon,Slingshot,3-Star,2020-12-30 01:10:28,permanent
+Weapon,Magic Guide,3-Star,2020-12-31 19:11:42,permanent
+Weapon,Sacrificial Fragments,4-Star,2020-12-31 19:11:51,permanent
+Weapon,Skyrider Sword,3-Star,2020-12-31 19:12:05,permanent
+Weapon,Slingshot,3-Star,2020-12-31 19:12:11,permanent
+Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-12-31 19:12:18,permanent
+Weapon,Thrilling Tales of Dragon Slayers,3-Star,2020-12-31 19:12:25,permanent
+Weapon,Bloodtainted Greatsword,3-Star,2020-12-31 19:12:29,permanent
+Character,Qiqi,5-Star,2020-12-31 19:12:35,permanent
